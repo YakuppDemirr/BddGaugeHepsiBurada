@@ -1,0 +1,48 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 775milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 775"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59577"}
+{"logLevel":"info","message":"Listening on port:59577"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Steps.sendKeysToElementTest' and 'Steps.sendKeysToElementTest'"}
+{"logLevel":"debug","message":"Found {} li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.getTextControlTest' and 'Steps.getTextControlTest'"}
+{"logLevel":"debug","message":"Found {} li elementin değeri {} değeri ile uyuşuyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.waitSecond' and 'Steps.waitSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.clickElement' and 'Steps.clickElement'"}
+{"logLevel":"debug","message":"Found {} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.mouseHover' and 'Steps.mouseHover'"}
+{"logLevel":"debug","message":"Found {} li elementin üzerine gel in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elemente tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} li elementin değeri {} değeri ile uyuşuyor mu kontrol et : public void getTextControlTest(String key, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSecond(ınt second)"}
+{"logLevel":"debug","message":"\t{} li elemente {} değerini yaz : public void sendKeysToElementTest(String key, String text)"}
+{"logLevel":"debug","message":"\t{} li elementin üzerine gel : public void mouseHover(String key)"}
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46242
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 21, 2020 2:40:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+{"logLevel":"debug","message":"Executing '{} li elementin üzerine gel' using 'class Steps.mouseHover"}
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}
+{"logLevel":"debug","message":"Executing '{} li elemente {} değerini yaz' using 'class Steps.sendKeysToElementTest"}
+{"logLevel":"debug","message":"Executing '{} li elemente {} değerini yaz' using 'class Steps.sendKeysToElementTest"}
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class Steps.waitSecond"}
+{"logLevel":"debug","message":"Executing '{} li elementin değeri {} değeri ile uyuşuyor mu kontrol et' using 'class Steps.getTextControlTest"}
+Elemanın Text değeri: Hesabım
+Girilen değer ile Elementin texti uyuşuyor..
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}
+{"logLevel":"debug","message":"Executing '{} li elementin değeri {} değeri ile uyuşuyor mu kontrol et' using 'class Steps.getTextControlTest"}
+Elemanın Text değeri: Testinium, sepetin şu an boş.
+Girilen değer ile Elementin texti uyuşuyor..
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}

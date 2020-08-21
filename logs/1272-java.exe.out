@@ -1,0 +1,88 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 770milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 770"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60136"}
+{"logLevel":"info","message":"Listening on port:60136"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Steps.productNameWriteCsv' and 'Steps.productNameWriteCsv'"}
+{"logLevel":"debug","message":"Found Ürünün açıklama metnini csv dosyasına yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.optionClick' and 'Steps.optionClick'"}
+{"logLevel":"debug","message":"Found {} li elementlerden {}. olanına tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.getTextControlTest' and 'Steps.getTextControlTest'"}
+{"logLevel":"debug","message":"Found {} li elementin değeri {} değeri ile uyuşuyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.waitSecond' and 'Steps.waitSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.clickElement' and 'Steps.clickElement'"}
+{"logLevel":"debug","message":"Found {} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.randomMouseHover' and 'Steps.randomMouseHover'"}
+{"logLevel":"debug","message":"Found {} li elementlerin rastgele birinin üstüne gel in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.cartQuantitySaveAttribute' and 'Steps.cartQuantitySaveAttribute'"}
+{"logLevel":"debug","message":"Found Detay sayfasındaki {} li elementin attribute'ünü kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.changeControl' and 'Steps.changeControl'"}
+{"logLevel":"debug","message":"Found Sayfadaki div değişikliği kontrol et sonuca göre element seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.sendKeysToElementTest' and 'Steps.sendKeysToElementTest'"}
+{"logLevel":"debug","message":"Found {} li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.SaveTextRandomClick' and 'Steps.SaveTextRandomClick'"}
+{"logLevel":"debug","message":"Found {} li elementlerden rastgele birinin text değerini kaydet ve elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.basketChangeControl' and 'Steps.basketChangeControl'"}
+{"logLevel":"debug","message":"Found Sepete eklerkenki div değişikliği kontrol et sonuca göre işlem yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.saveAttribute' and 'Steps.saveAttribute'"}
+{"logLevel":"debug","message":"Found {} li elementin attribute'ünü kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.totalPriceWriteCsv' and 'Steps.totalPriceWriteCsv'"}
+{"logLevel":"debug","message":"Found {} li elementin toplam tutarını csv dosyasına yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.compareName' and 'Steps.compareName'"}
+{"logLevel":"debug","message":"Found Ürünün texti ile detay sayfasındaki ürünün textini karşılaştır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.randomClick' and 'Steps.randomClick'"}
+{"logLevel":"debug","message":"Found {} li elementlerden birine rastgele tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.clickByXpath' and 'Steps.clickByXpath'"}
+{"logLevel":"debug","message":"Found {} li elemente xpath ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.mouseHover' and 'Steps.mouseHover'"}
+{"logLevel":"debug","message":"Found {} li elementin üzerine gel in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Steps.detailNameSaveText' and 'Steps.detailNameSaveText'"}
+{"logLevel":"debug","message":"Found {} li elementin text değerini kaydet in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elementlerden rastgele birinin text değerini kaydet ve elemente tıkla : public void SaveTextRandomClick(String key)"}
+{"logLevel":"debug","message":"\t{} li elementin toplam tutarını csv dosyasına yaz : public void totalPriceWriteCsv(String key) throws IOException"}
+{"logLevel":"debug","message":"\tÜrünün açıklama metnini csv dosyasına yaz : public void productNameWriteCsv() throws IOException"}
+{"logLevel":"debug","message":"\t{} li elementlerin rastgele birinin üstüne gel : public void randomMouseHover(String key)"}
+{"logLevel":"debug","message":"\tSepete eklerkenki div değişikliği kontrol et sonuca göre işlem yap : public void basketChangeControl()"}
+{"logLevel":"debug","message":"\t{} li elementin değeri {} değeri ile uyuşuyor mu kontrol et : public void getTextControlTest(String key, String text)"}
+{"logLevel":"debug","message":"\tÜrünün texti ile detay sayfasındaki ürünün textini karşılaştır : public void compareName()"}
+{"logLevel":"debug","message":"\t{} li elementlerden {}. olanına tıkla : public void optionClick(String key, Integer number)"}
+{"logLevel":"debug","message":"\t{} li elemente {} değerini yaz : public void sendKeysToElementTest(String key, String text)"}
+{"logLevel":"debug","message":"\t{} li elementin text değerini kaydet : public void detailNameSaveText(String key)"}
+{"logLevel":"debug","message":"\t{} li elementlerden birine rastgele tıkla : public void randomClick(String key)"}
+{"logLevel":"debug","message":"\tSayfadaki div değişikliği kontrol et sonuca göre element seç : public void changeControl()"}
+{"logLevel":"debug","message":"\t{} li elemente xpath ile tıkla : public void clickByXpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} li elemente tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSecond(ınt second)"}
+{"logLevel":"debug","message":"\t{} li elementin üzerine gel : public void mouseHover(String key)"}
+{"logLevel":"debug","message":"\tDetay sayfasındaki {} li elementin attribute'ünü kaydet : public void cartQuantitySaveAttribute(String key)"}
+{"logLevel":"debug","message":"\t{} li elementin attribute'ünü kaydet : public void saveAttribute(String key)"}
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 15108
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 21, 2020 4:07:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+{"logLevel":"debug","message":"Executing '{} li elementin üzerine gel' using 'class Steps.mouseHover"}
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}
+{"logLevel":"debug","message":"Executing '{} li elemente {} değerini yaz' using 'class Steps.sendKeysToElementTest"}
+{"logLevel":"debug","message":"Executing '{} li elemente {} değerini yaz' using 'class Steps.sendKeysToElementTest"}
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class Steps.waitSecond"}
+{"logLevel":"debug","message":"Executing '{} li elementin değeri {} değeri ile uyuşuyor mu kontrol et' using 'class Steps.getTextControlTest"}
+Elemanın Text değeri: Hesabım
+Girilen değer ile Elementin texti uyuşuyor..
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}
+{"logLevel":"debug","message":"Executing '{} li elementin değeri {} değeri ile uyuşuyor mu kontrol et' using 'class Steps.getTextControlTest"}
+Elemanın Text değeri: Testinium, sepetin şu an boş.
+Girilen değer ile Elementin texti uyuşuyor..
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class Steps.clickElement"}
+{"logLevel":"debug","message":"Executing '{} li elementlerden rastgele birinin text değerini kaydet ve elemente tıkla' using 'class Steps.SaveTextRandomClick"}
